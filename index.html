@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Web Page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <img
+          src="./DSC_2146.jpg"
+          alt="RashedatJinadu"
+          data-testid="slackDisplayImage"
+          width="100px"
+          height="100px"
+        />
+        <h1 data-testid="slackUserName">Jinadu Rashedat</h1>
+      </header>
+      <p data-testid="currentDayOfTheWeek">
+        Current Day of the Week: <span id="dayOfWeek"></span>
+      </p>
+      <p data-testid="currentUTCTime">
+        Current UTC Time: <span id="utcTime"></span> milliseconds
+      </p>
+      <p data-testid="myTrack">Track: Frontend</p>
+      <a
+        href="https://github.com/yourusername/your-repository"
+        data-testid="githubURL"
+        >GitHub Repository</a
+      >
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
